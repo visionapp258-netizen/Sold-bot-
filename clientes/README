@@ -1,0 +1,1 @@
+Each client file is named <ownerNumber>.json and contains { triggers: { 'gatilho': 'resposta' } }

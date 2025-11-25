@@ -9,8 +9,7 @@ module.exports = async function start(){
     printQRInTerminal: true,
     auth: state,
   });
-
-  // handlers
+  
   require('./handlers/connection')(sock, saveCreds);
   require('./handlers/messages')(sock);
 
